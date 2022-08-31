@@ -21,6 +21,7 @@ bot.use(
         apiSecret: '2176bb8b38952ee497faa07bd00374f9291f08e9',
     })
 )
+// 测试
 bot.use(
     WechatyWebPanelPlugin({
         maxuser: 10, // 支持最多多少人进行对话，建议不要设置太多，否则占用内存会增加
