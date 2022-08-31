@@ -15,12 +15,12 @@ bot = WechatyBuilder.build({
 });
 
 
-bot.use(
-    WechatyWebPanelPlugin({
-        apiKey: '89c866abdff27213baf122a7eb6684ca3a4f4041',
-        apiSecret: '2176bb8b38952ee497faa07bd00374f9291f08e9',
-    })
-)
+// bot.use(
+//     WechatyWebPanelPlugin({
+//         apiKey: '89c866abdff27213baf122a7eb6684ca3a4f4041',
+//         apiSecret: '2176bb8b38952ee497faa07bd00374f9291f08e9',
+//     })
+// )
 // 测试
 bot.use(
     WechatyWebPanelPlugin({
