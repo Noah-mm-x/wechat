@@ -25,7 +25,7 @@ bot.use(
     })
 )
 // 测试
-const roomList = ['机器人', '神经病四院', '保利时光印象二期3号楼']
+const roomList = ['机器人']
 bot.use(
     WechatyFaceCartonPlugin({
         // apiKey: '89c866abdff27213baf122a7eb6684ca3a4f4041',
